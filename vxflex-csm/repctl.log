@@ -1,0 +1,10 @@
+[2023-09-09 18:06:47] FATAL repctl: error: unknown flag: --target
+
+[2023-09-09 18:06:56]  INFO RG (rg-df875f9a-39bd-4233-aef2-01b71092c754), successfully updated with action: reprotect
+
+[2023-09-09 18:08:04]  INFO RG (rg-df875f9a-39bd-4233-aef2-01b71092c754), successfully updated with action: reprotect
+
+[2023-09-09 18:09:42]  INFO RG (rg-df875f9a-39bd-4233-aef2-01b71092c754), successfully updated with action: failover
+
+[2023-09-09 18:10:57]  INFO RG (rg-df875f9a-39bd-4233-aef2-01b71092c754), successfully updated with action: reprotect
+
