@@ -1,0 +1,34 @@
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  namespace: yelb
+  name: redis-pv-claim
+  labels:
+    app: redis-server
+spec:
+  storageClassName: vxflexos-replication
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+  volumeName: k8s-c0250ac986
+
+---
+  
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  namespace: yelb
+  name: db-pv-claim
+  labels:
+    app: yelb-db
+spec:
+  storageClassName: vxflexos-replication
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
+  volumeName: k8s-c95b022357 
